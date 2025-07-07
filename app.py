@@ -3,6 +3,13 @@ import joblib
 import numpy as np
 import base64
 import time
+import pandas as pd
+import re
+from PIL import Image
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import PassiveAggressiveClassifier
+
+
 
 # ----------------- Load model and vectorizer -----------------
 model = joblib.load("fake_news_model.pkl")
