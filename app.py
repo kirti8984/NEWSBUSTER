@@ -29,7 +29,7 @@ def set_bg_image(image_path):
     """
     st.markdown(bg_css, unsafe_allow_html=True)
 
-set_bg_image("/content/imagepro.jpg")
+set_bg_image("imagepro.jpg")
 
 # ----------------- Page Configuration -----------------
 st.set_page_config(page_title="NewsBuster", layout="centered")
